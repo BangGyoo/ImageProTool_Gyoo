@@ -1,0 +1,74 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ImageProTool - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\kbc\LOCALS~1\Temp\RSP1429.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/ImageProTool.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Documents and Settings\kbc\바탕 화면\Work\강의자료\대학원\기계자동차대학원(비전&패턴인식)\ImageProTool-숙제데모용\ImageProToolView.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\kbc\LOCALS~1\Temp\RSP1429.tmp" 
+Creating temporary file "C:\DOCUME~1\kbc\LOCALS~1\Temp\RSP142A.tmp" with contents
+[
+/nologo /stack:0x1400000 /subsystem:windows /incremental:yes /pdb:"Debug/ImageProTool.pdb" /debug /machine:I386 /out:"Debug/ImageProTool.exe" /pdbtype:sept 
+".\Debug\ChildFrm.obj"
+".\Debug\Dib.obj"
+".\Debug\Histogram.obj"
+".\Debug\ImageProTool.obj"
+".\Debug\ImageProToolDoc.obj"
+".\Debug\ImageProToolView.obj"
+".\Debug\InputDialog.obj"
+".\Debug\MainFrm.obj"
+".\Debug\StdAfx.obj"
+".\Debug\ImageProTool.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\kbc\LOCALS~1\Temp\RSP142A.tmp"
+<h3>Output Window</h3>
+Compiling...
+ImageProToolView.cpp
+C:\Documents and Settings\kbc\바탕 화면\Work\강의자료\대학원\기계자동차대학원(비전&패턴인식)\ImageProTool-숙제데모용\ImageProToolView.cpp(595) : warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+C:\Documents and Settings\kbc\바탕 화면\Work\강의자료\대학원\기계자동차대학원(비전&패턴인식)\ImageProTool-숙제데모용\ImageProToolView.cpp(1338) : warning C4101: 'NM2' : unreferenced local variable
+C:\Documents and Settings\kbc\바탕 화면\Work\강의자료\대학원\기계자동차대학원(비전&패턴인식)\ImageProTool-숙제데모용\ImageProToolView.cpp(1783) : warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+C:\Documents and Settings\kbc\바탕 화면\Work\강의자료\대학원\기계자동차대학원(비전&패턴인식)\ImageProTool-숙제데모용\ImageProToolView.cpp(2011) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Documents and Settings\kbc\바탕 화면\Work\강의자료\대학원\기계자동차대학원(비전&패턴인식)\ImageProTool-숙제데모용\ImageProToolView.cpp(3087) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+C:\Documents and Settings\kbc\바탕 화면\Work\강의자료\대학원\기계자동차대학원(비전&패턴인식)\ImageProTool-숙제데모용\ImageProToolView.cpp(3141) : warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
+C:\Documents and Settings\kbc\바탕 화면\Work\강의자료\대학원\기계자동차대학원(비전&패턴인식)\ImageProTool-숙제데모용\ImageProToolView.cpp(3220) : warning C4244: '=' : conversion from 'double' to 'unsigned char', possible loss of data
+C:\Documents and Settings\kbc\바탕 화면\Work\강의자료\대학원\기계자동차대학원(비전&패턴인식)\ImageProTool-숙제데모용\ImageProToolView.cpp(3120) : warning C4101: 'filter_width' : unreferenced local variable
+C:\Documents and Settings\kbc\바탕 화면\Work\강의자료\대학원\기계자동차대학원(비전&패턴인식)\ImageProTool-숙제데모용\ImageProToolView.cpp(3759) : warning C4101: 'NM2' : unreferenced local variable
+C:\Documents and Settings\kbc\바탕 화면\Work\강의자료\대학원\기계자동차대학원(비전&패턴인식)\ImageProTool-숙제데모용\ImageProToolView.cpp(3867) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Documents and Settings\kbc\바탕 화면\Work\강의자료\대학원\기계자동차대학원(비전&패턴인식)\ImageProTool-숙제데모용\ImageProToolView.cpp(3869) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Documents and Settings\kbc\바탕 화면\Work\강의자료\대학원\기계자동차대학원(비전&패턴인식)\ImageProTool-숙제데모용\ImageProToolView.cpp(3871) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Documents and Settings\kbc\바탕 화면\Work\강의자료\대학원\기계자동차대학원(비전&패턴인식)\ImageProTool-숙제데모용\ImageProToolView.cpp(3873) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Documents and Settings\kbc\바탕 화면\Work\강의자료\대학원\기계자동차대학원(비전&패턴인식)\ImageProTool-숙제데모용\ImageProToolView.cpp(3941) : warning C4518: 'int ' : storage-class or type specifier(s) unexpected here; ignored
+C:\Documents and Settings\kbc\바탕 화면\Work\강의자료\대학원\기계자동차대학원(비전&패턴인식)\ImageProTool-숙제데모용\ImageProToolView.cpp(3941) : warning C4228: nonstandard extension used : qualifiers after comma in declarator list are ignored
+C:\Documents and Settings\kbc\바탕 화면\Work\강의자료\대학원\기계자동차대학원(비전&패턴인식)\ImageProTool-숙제데모용\ImageProToolView.cpp(3978) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Documents and Settings\kbc\바탕 화면\Work\강의자료\대학원\기계자동차대학원(비전&패턴인식)\ImageProTool-숙제데모용\ImageProToolView.cpp(3979) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Documents and Settings\kbc\바탕 화면\Work\강의자료\대학원\기계자동차대학원(비전&패턴인식)\ImageProTool-숙제데모용\ImageProToolView.cpp(4192) : warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+C:\Documents and Settings\kbc\바탕 화면\Work\강의자료\대학원\기계자동차대학원(비전&패턴인식)\ImageProTool-숙제데모용\ImageProToolView.cpp(4193) : warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+C:\Documents and Settings\kbc\바탕 화면\Work\강의자료\대학원\기계자동차대학원(비전&패턴인식)\ImageProTool-숙제데모용\ImageProToolView.cpp(4174) : warning C4101: 'v1' : unreferenced local variable
+C:\Documents and Settings\kbc\바탕 화면\Work\강의자료\대학원\기계자동차대학원(비전&패턴인식)\ImageProTool-숙제데모용\ImageProToolView.cpp(4174) : warning C4101: 'v2' : unreferenced local variable
+C:\Documents and Settings\kbc\바탕 화면\Work\강의자료\대학원\기계자동차대학원(비전&패턴인식)\ImageProTool-숙제데모용\ImageProToolView.cpp(4174) : warning C4101: 'v3' : unreferenced local variable
+C:\Documents and Settings\kbc\바탕 화면\Work\강의자료\대학원\기계자동차대학원(비전&패턴인식)\ImageProTool-숙제데모용\ImageProToolView.cpp(4174) : warning C4101: 'v4' : unreferenced local variable
+C:\Documents and Settings\kbc\바탕 화면\Work\강의자료\대학원\기계자동차대학원(비전&패턴인식)\ImageProTool-숙제데모용\ImageProToolView.cpp(4175) : warning C4101: 'w1' : unreferenced local variable
+C:\Documents and Settings\kbc\바탕 화면\Work\강의자료\대학원\기계자동차대학원(비전&패턴인식)\ImageProTool-숙제데모용\ImageProToolView.cpp(4175) : warning C4101: 'w2' : unreferenced local variable
+C:\Documents and Settings\kbc\바탕 화면\Work\강의자료\대학원\기계자동차대학원(비전&패턴인식)\ImageProTool-숙제데모용\ImageProToolView.cpp(4175) : warning C4101: 'w3' : unreferenced local variable
+C:\Documents and Settings\kbc\바탕 화면\Work\강의자료\대학원\기계자동차대학원(비전&패턴인식)\ImageProTool-숙제데모용\ImageProToolView.cpp(4175) : warning C4101: 'w4' : unreferenced local variable
+C:\Documents and Settings\kbc\바탕 화면\Work\강의자료\대학원\기계자동차대학원(비전&패턴인식)\ImageProTool-숙제데모용\ImageProToolView.cpp(4267) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+C:\Documents and Settings\kbc\바탕 화면\Work\강의자료\대학원\기계자동차대학원(비전&패턴인식)\ImageProTool-숙제데모용\ImageProToolView.cpp(4290) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Documents and Settings\kbc\바탕 화면\Work\강의자료\대학원\기계자동차대학원(비전&패턴인식)\ImageProTool-숙제데모용\ImageProToolView.cpp(4292) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Documents and Settings\kbc\바탕 화면\Work\강의자료\대학원\기계자동차대학원(비전&패턴인식)\ImageProTool-숙제데모용\ImageProToolView.cpp(4294) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Documents and Settings\kbc\바탕 화면\Work\강의자료\대학원\기계자동차대학원(비전&패턴인식)\ImageProTool-숙제데모용\ImageProToolView.cpp(4296) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Documents and Settings\kbc\바탕 화면\Work\강의자료\대학원\기계자동차대학원(비전&패턴인식)\ImageProTool-숙제데모용\ImageProToolView.cpp(4874) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+Linking...
+
+
+
+<h3>Results</h3>
+ImageProTool.exe - 0 error(s), 33 warning(s)
+</pre>
+</body>
+</html>
