@@ -80,6 +80,9 @@ public:
 	afx_msg void OnGlobalThresholding();
 	int Thresholding_Update(int height, int width, int* Y, int *B, int T);
 	afx_msg void OnHistogramStretching();
+	afx_msg void OnHistogramEqual();
+	afx_msg void OnMeanfilter();
+	afx_msg void OnMedianfilter();
 };
 
 #ifndef _DEBUG  // debug version in ImageProToolView.cpp

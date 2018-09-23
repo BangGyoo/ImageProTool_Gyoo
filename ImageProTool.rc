@@ -176,6 +176,9 @@ BEGIN
         MENUITEM "Histogram",                   ID_HISTOGRAM
         MENUITEM "GlobalThresholding",          ID_CHAP_GLOBALTHRESHOLDING
         MENUITEM "HistogramStretching",         ID_CHAP_HISTOGRAMSTRETCHING
+        MENUITEM "HistogramEqual",              ID_CHAP_HISTOGRAMEQUAL
+        MENUITEM "Meanfilter",                  ID_CHAP_MEANFILTER
+        MENUITEM "Medianfilter",                ID_CHAP_MEDIANFILTER
     END
 END
 
