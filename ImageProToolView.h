@@ -83,6 +83,8 @@ public:
 	afx_msg void OnHistogramEqual();
 	afx_msg void OnMeanfilter();
 	afx_msg void OnMedianfilter();
+	afx_msg void OnSobel();
+	afx_msg void OnChapNearestscaling();
 };
 
 #ifndef _DEBUG  // debug version in ImageProToolView.cpp

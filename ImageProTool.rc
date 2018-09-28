@@ -180,6 +180,11 @@ BEGIN
         MENUITEM "Meanfilter",                  ID_CHAP_MEANFILTER
         MENUITEM "Medianfilter",                ID_CHAP_MEDIANFILTER
     END
+    POPUP "Chap.3"
+    BEGIN
+        MENUITEM "Sobel",                       ID_CHAP_SOBEL
+        MENUITEM "NearestScaling",              ID_CHAP_NEARESTSCALING
+    END
 END
 
 

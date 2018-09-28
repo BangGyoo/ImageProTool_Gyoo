@@ -118,6 +118,8 @@
 #define ID_CHAP_HISTOGRAMEQUAL          32875
 #define ID_CHAP_MEANFILTER              32876
 #define ID_CHAP_MEDIANFILTER            32877
+#define ID_CHAP_SOBEL                   32878
+#define ID_CHAP_NEARESTSCALING          32879
 
 // Next default values for new objects
 // 
@@ -125,7 +127,7 @@
 #ifndef APSTUDIO_READONLY_SYMBOLS
 #define _APS_3D_CONTROLS                     1
 #define _APS_NEXT_RESOURCE_VALUE        134
-#define _APS_NEXT_COMMAND_VALUE         32878
+#define _APS_NEXT_COMMAND_VALUE         32880
 #define _APS_NEXT_CONTROL_VALUE         1014
 #define _APS_NEXT_SYMED_VALUE           101
 #endif
