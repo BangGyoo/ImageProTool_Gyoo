@@ -31,7 +31,7 @@ public:
   
 	void Seperate_RGB(BYTE* , RGBptr** );
 	void SetRGBptr(BYTE* , RGBptr** ,int , int);
-
+	
 	template<typename T> 
 	inline void swap(T& lha, T& rha)
 	{
@@ -56,6 +56,7 @@ public:
 	virtual BOOL OnPreparePrinting(CPrintInfo* pInfo);
 	virtual void OnBeginPrinting(CDC* pDC, CPrintInfo* pInfo);
 	virtual void OnEndPrinting(CDC* pDC, CPrintInfo* pInfo);
+
 	//}}AFX_VIRTUAL
 
 // Implementation
@@ -85,6 +86,11 @@ public:
 	afx_msg void OnMedianfilter();
 	afx_msg void OnSobel();
 	afx_msg void OnChapNearestscaling();
+	afx_msg void OnHistogramStretching_RGB();
+	afx_msg void OnHistogramEqual_RGB();
+	afx_msg void OnHistogramStretching_per5();
+	void histoStretching(float percentage = 1);
+
 };
 
 #ifndef _DEBUG  // debug version in ImageProToolView.cpp

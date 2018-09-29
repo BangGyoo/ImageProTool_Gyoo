@@ -182,8 +182,19 @@ BEGIN
     END
     POPUP "Chap.3"
     BEGIN
-        MENUITEM "Sobel",                       ID_CHAP_SOBEL
-        MENUITEM "NearestScaling",              ID_CHAP_NEARESTSCALING
+        MENUITEM "Sobel",                       0
+        MENUITEM "NearestScaling",              ID_CHAP_NEARESTSCALING32881
+    END
+    POPUP "Homework"
+    BEGIN
+        MENUITEM "HistogramStretching_Gray",    ID_CHAP_HISTOGRAMSTRETCHING
+        MENUITEM "HistogramStretching_RGB",     ID_HOMEWORK_HISTOGRAMSTRETCHING
+        MENUITEM "HistogramEqual_Gray",         ID_CHAP_HISTOGRAMEQUAL
+        MENUITEM "HistogramEqual_RGB",          ID_HISTOGRAMEQUAL
+        MENUITEM "HistogramStretching_per1",    ID_CHAP_HISTOGRAMSTRETCHING
+        MENUITEM "HistogramStretching_per5",    ID_HISTOGRAMSTRETCHING
+        MENUITEM "Meanfilter",                  ID_CHAP_MEANFILTER
+        MENUITEM "Medianfilter",                ID_CHAP_MEDIANFILTER
     END
 END
 

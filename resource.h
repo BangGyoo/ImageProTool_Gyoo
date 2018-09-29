@@ -120,6 +120,14 @@
 #define ID_CHAP_MEDIANFILTER            32877
 #define ID_CHAP_SOBEL                   32878
 #define ID_CHAP_NEARESTSCALING          32879
+#define ID_HOMEWORK_HISTOGRAMSTRETCHING 32880
+#define ID_CHAP_NEARESTSCALING32881     32881
+#define ID_CHAP_SOBEL32882              32882
+#define ID_HOMEWORK_MEANFILTER          32883
+#define ID_HOMEWORK_MEDIANFILTER        32884
+#define ID_HOMEWORK_MEANFILTER32885     32885
+#define ID_HISTOGRAMEQUAL               32886
+#define ID_HISTOGRAMSTRETCHING          32887
 
 // Next default values for new objects
 // 
@@ -127,7 +135,7 @@
 #ifndef APSTUDIO_READONLY_SYMBOLS
 #define _APS_3D_CONTROLS                     1
 #define _APS_NEXT_RESOURCE_VALUE        134
-#define _APS_NEXT_COMMAND_VALUE         32880
+#define _APS_NEXT_COMMAND_VALUE         32888
 #define _APS_NEXT_CONTROL_VALUE         1014
 #define _APS_NEXT_SYMED_VALUE           101
 #endif
