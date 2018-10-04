@@ -185,10 +185,12 @@ BEGIN
         MENUITEM "Sobel",                       ID_CHAP_SOBEL
         MENUITEM "NearestScaling",              ID_CHAP_NEARESTSCALING
         MENUITEM "Rotation",                    ID_CHAP_ROTATION
+        MENUITEM "Translation",                 ID_CHAP_TRANSLATION
     END
     POPUP "Chap.4"
     BEGIN
         MENUITEM "BinaryDilation",              ID_CHAP_BINARYDILATION
+        MENUITEM "BinaryErosion",               ID_CHAP_BINARYEROSION
     END
 END
 
