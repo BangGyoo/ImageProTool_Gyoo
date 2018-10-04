@@ -184,6 +184,7 @@ BEGIN
     BEGIN
         MENUITEM "Sobel",                       ID_CHAP_SOBEL
         MENUITEM "NearestScaling",              ID_CHAP_NEARESTSCALING
+        MENUITEM "Rotation",                    ID_CHAP_ROTATION
     END
 END
 

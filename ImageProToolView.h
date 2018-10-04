@@ -85,6 +85,7 @@ public:
 	afx_msg void OnMedianfilter();
 	afx_msg void OnSobel();
 	afx_msg void OnChapNearestscaling();
+	afx_msg void OnRotation();
 };
 
 #ifndef _DEBUG  // debug version in ImageProToolView.cpp
