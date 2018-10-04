@@ -186,6 +186,10 @@ BEGIN
         MENUITEM "NearestScaling",              ID_CHAP_NEARESTSCALING
         MENUITEM "Rotation",                    ID_CHAP_ROTATION
     END
+    POPUP "Chap.4"
+    BEGIN
+        MENUITEM "BinaryDilation",              ID_CHAP_BINARYDILATION
+    END
 END
 
 

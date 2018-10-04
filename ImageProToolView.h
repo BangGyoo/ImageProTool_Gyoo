@@ -86,6 +86,7 @@ public:
 	afx_msg void OnSobel();
 	afx_msg void OnChapNearestscaling();
 	afx_msg void OnRotation();
+	afx_msg void OnBinaryDilation();
 };
 
 #ifndef _DEBUG  // debug version in ImageProToolView.cpp
