@@ -90,6 +90,10 @@ public:
 	afx_msg void OnTranslation();
 	afx_msg void OnBinaryErosion();
 	afx_msg void OnConnectedLabeling();
+	afx_msg void OnDiff4_1();
+	afx_msg void OnCalc4_2();
+	afx_msg void OnOmnidirectMapping();
+	afx_msg void OnConversion();
 };
 
 #ifndef _DEBUG  // debug version in ImageProToolView.cpp

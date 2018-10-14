@@ -193,6 +193,13 @@ BEGIN
         MENUITEM "BinaryErosion",               ID_CHAP_BINARYEROSION
         MENUITEM "ConnectedLabeling",           ID_CHAP_CONNECTEDLABELING
     END
+    POPUP "Homework2"
+    BEGIN
+        MENUITEM "Diff4_1",                     ID_HOMEWORK2_DIFF4
+        MENUITEM "Calc4_2",                     ID_HOMEWORK2_CALC4
+        MENUITEM "OmnidirectMapping",           ID_HOMEWORK2_OMNIDIRECTMAPPING
+        MENUITEM "Conversion",                  ID_HOMEWORK2_CONVERSION
+    END
 END
 
 
