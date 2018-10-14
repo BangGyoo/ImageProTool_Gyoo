@@ -89,6 +89,7 @@ public:
 	afx_msg void OnBinaryDilation();
 	afx_msg void OnTranslation();
 	afx_msg void OnBinaryErosion();
+	afx_msg void OnConnectedLabeling();
 };
 
 #ifndef _DEBUG  // debug version in ImageProToolView.cpp
