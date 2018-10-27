@@ -90,6 +90,7 @@ public:
 	afx_msg void OnTranslation();
 	afx_msg void OnBinaryErosion();
 	afx_msg void OnConnectedLabeling();
+	afx_msg void OnInvariantMoment();
 };
 
 #ifndef _DEBUG  // debug version in ImageProToolView.cpp

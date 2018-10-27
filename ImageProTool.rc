@@ -192,6 +192,7 @@ BEGIN
         MENUITEM "BinaryDilation",              ID_CHAP_BINARYDILATION
         MENUITEM "BinaryErosion",               ID_CHAP_BINARYEROSION
         MENUITEM "ConnectedLabeling",           ID_CHAP_CONNECTEDLABELING
+        MENUITEM "InvariantMoment",             ID_CHAP_INVARIANTMOMENT
     END
 END
 
