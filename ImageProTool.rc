@@ -194,6 +194,10 @@ BEGIN
         MENUITEM "ConnectedLabeling",           ID_CHAP_CONNECTEDLABELING
         MENUITEM "InvariantMoment",             ID_CHAP_INVARIANTMOMENT
     END
+    POPUP "Chap.5"
+    BEGIN
+        MENUITEM "KmeanClustering",             ID_CHAP_KMEANCLUSTERING
+    END
 END
 
 

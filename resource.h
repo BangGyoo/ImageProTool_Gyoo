@@ -126,6 +126,7 @@
 #define ID_CHAP_BINARYEROSION           32883
 #define ID_CHAP_CONNECTEDLABELING       32884
 #define ID_CHAP_INVARIANTMOMENT         32885
+#define ID_CHAP_KMEANCLUSTERING         32886
 
 // Next default values for new objects
 // 
@@ -133,7 +134,7 @@
 #ifndef APSTUDIO_READONLY_SYMBOLS
 #define _APS_3D_CONTROLS                     1
 #define _APS_NEXT_RESOURCE_VALUE        134
-#define _APS_NEXT_COMMAND_VALUE         32886
+#define _APS_NEXT_COMMAND_VALUE         32887
 #define _APS_NEXT_CONTROL_VALUE         1014
 #define _APS_NEXT_SYMED_VALUE           101
 #endif
