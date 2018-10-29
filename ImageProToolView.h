@@ -92,6 +92,7 @@ public:
 	afx_msg void OnConnectedLabeling();
 	afx_msg void OnInvariantMoment();
 	afx_msg void OnKmeanClustering();
+	afx_msg void OnSearchshark();
 };
 
 #ifndef _DEBUG  // debug version in ImageProToolView.cpp

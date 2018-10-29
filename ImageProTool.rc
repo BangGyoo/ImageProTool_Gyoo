@@ -198,6 +198,10 @@ BEGIN
     BEGIN
         MENUITEM "KmeanClustering",             ID_CHAP_KMEANCLUSTERING
     END
+    POPUP "Homework.3"
+    BEGIN
+        MENUITEM "SearchShark",                 ID_HOMEWORK_SEARCHSHARK
+    END
 END
 
 
