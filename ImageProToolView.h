@@ -93,6 +93,7 @@ public:
 	afx_msg void OnInvariantMoment();
 	afx_msg void OnKmeanClustering();
 	afx_msg void OnSearchshark();
+	void shapeX(RGBptr** output, int x, int y);
 };
 
 #ifndef _DEBUG  // debug version in ImageProToolView.cpp
