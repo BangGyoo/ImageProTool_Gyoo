@@ -94,6 +94,8 @@ public:
 	afx_msg void OnKmeanClustering();
 	afx_msg void OnSearchshark();
 	void shapeX(RGBptr** output, int x, int y);
+	afx_msg void OnNaivebayes();
+	afx_msg void OnParseBMPtoTXT();
 };
 
 #ifndef _DEBUG  // debug version in ImageProToolView.cpp
